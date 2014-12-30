@@ -1,19 +1,19 @@
 ﻿@model string
 <html ng-app="registrationModule">
 <head>
-    <title>College Registration</title>        
-    <!-- Latest compiled and minified CSS for bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">    
-    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.1/slate/bootstrap.min.css" rel="stylesheet" />    
+    <title>College Registration</title>            
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.1/slate/bootstrap.min.css" />  
+   
 </head>
-    <body >
-        @RenderSection("JavaScriptInBody", false)
-        @RenderBody()
+    <body>        
+        
         <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>            
-        <!-- Latest compiled and minified JavaScript for bootstrap -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>                    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>    
+        <script src="~/Scripts/registration-module.js"></script>      
+        @RenderSection("JavaScriptInHead", false)
+          @RenderBody()
     </body>
 </html>
 

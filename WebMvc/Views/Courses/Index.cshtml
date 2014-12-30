@@ -1,22 +1,27 @@
 ﻿@model string
-
+           
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-@section JavaScriptInBody
-{
-    <script src="~/Scripts/Courses/courses-controller.js"></script>
-
+           
+@section JavaScriptInHead
+{    
+<script src="~/Scripts/Courses/courses-controller.js"></script>
     <script type="text/javascript">
-        courses = @Html.Raw(Model);
-        //console.log(courses);
+        registrationModule.factory('bootstrappedCourses', function() {
+            return {
+                courses: @Html.Raw(Model)
+            };
+        });
     </script>
 }
 
-
-@*<div class="container" ng-init='courses = @Html.Raw(Model)'>*@
 <div class="container" ng-controller="CoursesController">
+    <div class="row">
+        <div class="span10">
+            <h1>Courses</h1>
+        </div>
+    </div>
     <div class="row">
         <div class="span10">
             <table class="table table-condensed table-hover">
@@ -34,6 +39,7 @@
         </div>
     </div>
 </div>
+
 
 
 

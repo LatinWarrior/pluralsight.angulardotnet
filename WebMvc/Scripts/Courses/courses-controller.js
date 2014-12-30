@@ -1,6 +1,6 @@
 ﻿'use strict';
 
 registrationModule.controller('CoursesController',
-    function ($scope) {
-    $scope.courses = courses;
+    function ($scope, bootstrappedCourses) {
+        $scope.courses = bootstrappedCourses.courses;
 });
