@@ -18,3 +18,23 @@ c:\users\luis_blanco\documents\visual studio 2013\Projects\Pluralsight.AngularDo
 c:\users\luis_blanco\documents\visual studio 2013\Projects\Pluralsight.AngularDotNet\WebMvc\obj\Debug\WebMvc.pdb
 c:\users\luis_blanco\documents\visual studio 2013\Projects\Pluralsight.AngularDotNet\WebMvc\bin\Newtonsoft.Json.dll
 c:\users\luis_blanco\documents\visual studio 2013\Projects\Pluralsight.AngularDotNet\WebMvc\bin\Newtonsoft.Json.xml
+D:\Pluralsight.AngularDotNet\WebMvc\bin\WebMvc.dll.config
+D:\Pluralsight.AngularDotNet\WebMvc\bin\WebMvc.dll
+D:\Pluralsight.AngularDotNet\WebMvc\bin\WebMvc.pdb
+D:\Pluralsight.AngularDotNet\WebMvc\bin\Newtonsoft.Json.dll
+D:\Pluralsight.AngularDotNet\WebMvc\bin\System.Web.Helpers.dll
+D:\Pluralsight.AngularDotNet\WebMvc\bin\System.Web.Mvc.dll
+D:\Pluralsight.AngularDotNet\WebMvc\bin\System.Web.Razor.dll
+D:\Pluralsight.AngularDotNet\WebMvc\bin\System.Web.Webpages.Deployment.dll
+D:\Pluralsight.AngularDotNet\WebMvc\bin\System.Web.Webpages.dll
+D:\Pluralsight.AngularDotNet\WebMvc\bin\System.Web.Webpages.Razor.dll
+D:\Pluralsight.AngularDotNet\WebMvc\bin\Newtonsoft.Json.xml
+D:\Pluralsight.AngularDotNet\WebMvc\bin\System.Web.Razor.xml
+D:\Pluralsight.AngularDotNet\WebMvc\bin\System.Web.Webpages.xml
+D:\Pluralsight.AngularDotNet\WebMvc\bin\System.Web.Webpages.Deployment.xml
+D:\Pluralsight.AngularDotNet\WebMvc\bin\System.Web.Webpages.Razor.xml
+D:\Pluralsight.AngularDotNet\WebMvc\bin\System.Web.Helpers.xml
+D:\Pluralsight.AngularDotNet\WebMvc\bin\System.Web.Mvc.xml
+D:\Pluralsight.AngularDotNet\WebMvc\obj\Debug\WebMvc.csprojResolveAssemblyReference.cache
+D:\Pluralsight.AngularDotNet\WebMvc\obj\Debug\WebMvc.dll
+D:\Pluralsight.AngularDotNet\WebMvc\obj\Debug\WebMvc.pdb
