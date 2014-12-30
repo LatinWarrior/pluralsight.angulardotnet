@@ -9,7 +9,7 @@ namespace WebMvc.Models.Registration
     {
         public RegistrationVm BuildRegistrationVm()
         {
-            var registrationVm = new RegistrationVm()
+            var registrationVm = new RegistrationVm
             {
                 Courses = GetSerializedCourses(),
                 Instructors = GetSerializedInstructors()

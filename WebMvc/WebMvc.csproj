@@ -101,6 +101,8 @@
     <Content Include="Scripts\jquery-2.0.0.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\registration-module.js" />
+    <Content Include="Templates\courses.html" />
+    <Content Include="Templates\instructors.html" />
     <Content Include="Web.config" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Scripts\jquery-2.0.0.min.map" />
@@ -109,6 +111,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CoursesController.cs" />
     <Compile Include="Controllers\InstructorsController.cs" />
+    <Compile Include="Controllers\RegistrationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -128,6 +131,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Views\Instructors\Index.cshtml" />
+    <Content Include="Views\Registration\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

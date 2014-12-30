@@ -1,7 +1,4 @@
 ﻿using System.Web.Mvc;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Serialization;
-using WebMvc.Models.Courses;
 using WebMvc.Models.Registration;
 
 namespace WebMvc.Controllers
