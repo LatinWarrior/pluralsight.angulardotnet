@@ -1,5 +1,5 @@
 ﻿@model string
-<html ng-app>
+<html ng-app="registrationModule">
 <head>
     <title>College Registration</title>    
     @*<link href="~/Content/bootstrap/bootstrap.min.css" rel="stylesheet" />*@
@@ -10,8 +10,7 @@
     @*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">*@
     @*<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.1/sandstone/bootstrap.min.css" rel="stylesheet" />*@
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.1/slate/bootstrap.min.css" rel="stylesheet" />
-    @*<link href=" />/maxcdn.bootstrapcdn.com/bootswatch/3.3.1/sandstone/bootstrap.min.css" rel="stylesheet">*@
-    
+    @*<link href=" />/maxcdn.bootstrapcdn.com/bootswatch/3.3.1/sandstone/bootstrap.min.css" rel="stylesheet">*@    
 </head>
 <body >
     @RenderBody()
@@ -20,6 +19,7 @@
     @*<script src="~/Scripts/bootstrap.min.js"></script>*@
     <!-- Latest compiled and minified JavaScript for bootstrap -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    @RenderSection("JavaScriptInBody", false)
 </body>
 </html>
 
