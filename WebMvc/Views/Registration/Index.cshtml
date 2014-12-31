@@ -1,5 +1,4 @@
-﻿@model WebMvc.Models.Registration.RegistrationVm
-
+﻿
 @{
     ViewBag.Title = "Registration";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -7,16 +6,10 @@
 
 @section JavaScriptInHead
 {
+    <script src="~/Scripts/Courses/course-repository.js"></script>
     <script src="~/Scripts/Courses/courses-controller.js"></script>
-    <script src="~/Scripts/Instructors/instructors-controller.js"></script>
-    <script type="text/javascript">
-        registrationModule.factory('bootstrappedData', function() {
-            return {
-                courses: @Html.Raw(Model.Courses),
-                instructors: @Html.Raw(Model.Instructors)
-            };
-        });
-    </script>
+    <script src="~/Scripts/Instructors/instructor-repository.js"></script>
+    <script src="~/Scripts/Instructors/instructors-controller.js"></script>    
 }
 
 <div class="container">

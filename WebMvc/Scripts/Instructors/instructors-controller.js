@@ -1,6 +1,6 @@
 ﻿'use strict';
 
 registrationModule.controller('InstructorsController',
-    function ($scope, bootstrappedData) {
-        $scope.instructors = bootstrappedData.instructors;
+    function($scope, instructorRepository) {
+        instructorRepository.get().then(function(instructors) { $scope.instructors = instructors; }, function() { console.log("failure of instructor retrieval."); });
     });
