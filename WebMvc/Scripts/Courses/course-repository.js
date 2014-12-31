@@ -1,12 +1,10 @@
 ﻿'use strict';
 
 registrationModule.factory('courseRepository',
-    function($http, $q) {
+    function($resource) {
         return {
-            get: function() {
-                var deferred = $q.defer();
-                $http.get('/api/Courses').success(deferred.resolve).error(deferred.reject);
-                return deferred.promise;
+            get: function () {
+                return $resource('/api/Courses').query();                
             }
         }
     });

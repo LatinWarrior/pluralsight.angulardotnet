@@ -2,5 +2,5 @@
 
 registrationModule.controller('InstructorsController',
     function($scope, instructorRepository) {
-        instructorRepository.get().then(function(instructors) { $scope.instructors = instructors; }, function() { console.log("failure of instructor retrieval."); });
+        $scope.instructors = instructorRepository.get();
     });
