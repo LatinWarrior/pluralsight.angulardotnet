@@ -1,0 +1,23 @@
+{
+  "name": "Pluralsight.AngularDotNet",
+  "version": "0.0.2",
+  "homepage": "https://github.com/LatinWarrior/pluralsight.angulardotnet",
+  "authors": [
+    "Luis Blanco 路易斯.布兰科 <luis_blanco@volusion.com>"
+  ],
+  "description": "A project using ASP.NET MVC and AngularJS.",
+  "keywords": [
+    "ASP.NET",
+    "MVC",
+    "AngularJS",
+    "Pluralsight"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
