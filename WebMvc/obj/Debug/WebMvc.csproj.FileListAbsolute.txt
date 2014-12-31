@@ -38,3 +38,9 @@ D:\Pluralsight.AngularDotNet\WebMvc\bin\System.Web.Mvc.xml
 D:\Pluralsight.AngularDotNet\WebMvc\obj\Debug\WebMvc.csprojResolveAssemblyReference.cache
 D:\Pluralsight.AngularDotNet\WebMvc\obj\Debug\WebMvc.dll
 D:\Pluralsight.AngularDotNet\WebMvc\obj\Debug\WebMvc.pdb
+D:\Pluralsight.AngularDotNet\WebMvc\bin\System.Net.Http.Formatting.dll
+D:\Pluralsight.AngularDotNet\WebMvc\bin\System.Web.Http.dll
+D:\Pluralsight.AngularDotNet\WebMvc\bin\System.Web.Http.WebHost.dll
+D:\Pluralsight.AngularDotNet\WebMvc\bin\System.Net.Http.Formatting.xml
+D:\Pluralsight.AngularDotNet\WebMvc\bin\System.Web.Http.xml
+D:\Pluralsight.AngularDotNet\WebMvc\bin\System.Web.Http.WebHost.xml

@@ -5,7 +5,7 @@ registrationModule.factory('courseRepository',
         return {
             get: function() {
                 var deferred = $q.defer();
-                $http.get('/Courses').success(deferred.resolve).error(deferred.reject);
+                $http.get('/api/Courses').success(deferred.resolve).error(deferred.reject);
                 return deferred.promise;
             }
         }

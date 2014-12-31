@@ -5,7 +5,7 @@ registrationModule.factory('accountRepository', function($http, $q) {
         save: function(student) {
             var deferred = $q.defer();
             $http
-                .post('/Account/Save', student)
+                .post('/api/Account/Save', student)
                 .success(function() {
                     deferred.resolve();
                 })

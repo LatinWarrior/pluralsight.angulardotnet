@@ -1,15 +1,17 @@
-﻿using System.Web.Mvc;
+﻿using System.Web.Http;
+using WebMvc.Models.Instructors;
 using WebMvc.Models.Registration;
 
 namespace WebMvc.Controllers
 {
-    public class InstructorsController : JsonController
+    public class InstructorsController : ApiController
     {
         private readonly RegistrationVmBuilder _registrationBuilder = new RegistrationVmBuilder();
+
         // GET: Instructors
-        public ActionResult Index()
+        public InstructorVm[] Get()
         {
-            return Json(_registrationBuilder.GetInstructorVms(), JsonRequestBehavior.AllowGet);
+            return _registrationBuilder.GetInstructorVms();
         }
     }
 }

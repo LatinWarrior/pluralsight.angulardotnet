@@ -6,7 +6,7 @@ registrationModule.controller('AccountController',
             $scope.error = false;
             accountRepository.save(student).then(
                 function() {
-                    $location.url('Registration/Courses');
+                    $location.url('/api/Courses');
                 },
                 function() {
                     $scope.error = true;
